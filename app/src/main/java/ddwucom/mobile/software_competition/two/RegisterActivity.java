@@ -26,7 +26,6 @@ import ddwucom.mobile.software_competition.R;
 
 public class RegisterActivity extends AppCompatActivity {
     private EditText id, pwd, name, nickname, passwdcheck;
-    private RadioButton woman;
     private Button send, cancel;
     Boolean checkMatch[] = {false, false, false};
 
@@ -38,7 +37,6 @@ public class RegisterActivity extends AppCompatActivity {
         pwd = findViewById(R.id.userpasswd);
         name = findViewById(R.id.username);
         nickname = findViewById(R.id.usernickname);
-        woman = findViewById(R.id.woman);
         send = findViewById(R.id.send);
         cancel = findViewById(R.id.send_cancel);
         passwdcheck = findViewById(R.id.passwdcheck);
@@ -129,12 +127,6 @@ public class RegisterActivity extends AppCompatActivity {
         String user_pwd = pwd.getText().toString();
         String user_name = name.getText().toString();
         String user_nickname = nickname.getText().toString();
-        String user_gender;
-
-        if (woman.isChecked())
-            user_gender = "1";
-        else
-            user_gender = "2";
 
         Response.Listener<String> resposneListener = new Response.Listener<String>() {
             @Override
@@ -166,7 +158,7 @@ public class RegisterActivity extends AppCompatActivity {
         };
 
         // Volley 로 회원양식 웹으로 전송
-        RegisterRequest registerRequest = new RegisterRequest(user_id, user_pwd, user_name, user_nickname, user_gender, resposneListener, errorListener);
+        RegisterRequest registerRequest = new RegisterRequest(user_id, user_pwd, user_name, user_nickname, resposneListener, errorListener);
         registerRequest.setShouldCache(false);
 
         RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
