@@ -13,7 +13,7 @@ public class RegisterRequest extends StringRequest {
     private final static String URL = "http://forws.dothome.co.kr/signup.php";
     private Map<String, String> map;
 
-    public RegisterRequest(String id, String pwd, String name, String nickname, String gender, Response.Listener<String> listener, Response.ErrorListener errorListener) {
+    public RegisterRequest(String id, String pwd, String name, String nickname, Response.Listener<String> listener, Response.ErrorListener errorListener) {
         super(Method.POST,URL, listener, errorListener);
 
         map = new HashMap<>();
@@ -21,7 +21,6 @@ public class RegisterRequest extends StringRequest {
         map.put("id", id);
         map.put("pwd", pwd);
         map.put("nickname", nickname);
-        map.put("gender", gender);
     }
 
 

@@ -1,12 +1,18 @@
 package ddwucom.mobile.software_competition.three;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.os.Build;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import androidx.annotation.RequiresApi;
+import androidx.core.widget.TextViewCompat;
 
 import java.util.ArrayList;
 

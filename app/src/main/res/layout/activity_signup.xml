@@ -88,18 +88,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="60dp"
-        android:text="성별"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
     <EditText
         android:id="@+id/usernickname"
         android:layout_width="wrap_content"
@@ -110,7 +98,6 @@
         android:ems="10"
         android:hint="닉네임을 입력하세요"
         android:inputType="textPersonName"
-        android:nextFocusDown="@id/woman"
         android:singleLine="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwdcheck" />
@@ -125,25 +112,7 @@
         android:nextFocusDown="@id/send"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernickname">
-
-        <RadioButton
-            android:id="@+id/woman"
-            android:layout_width="105dp"
-            android:layout_height="match_parent"
-            android:checked="true"
-            android:nextFocusDown="@id/man"
-            android:text="여자"
-            android:textSize="18sp" />
-
-        <RadioButton
-            android:id="@+id/man"
-            android:layout_width="102dp"
-            android:layout_height="match_parent"
-            android:nextFocusDown="@id/send"
-            android:text="남자"
-            android:textSize="18sp" />
-    </RadioGroup>
+        app:layout_constraintTop_toBottomOf="@+id/usernickname"/>
 
     <TextView
         android:id="@+id/textView28"
