@@ -19,30 +19,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ReadPostActivity"></activity>
-        <activity android:name=".CreatePostsActivity" />
-        <activity android:name=".AdminActivity" />
+        <activity android:name=".two.ReadPostActivity"></activity>
+        <activity android:name=".two.CreatePostsActivity" />
+        <activity android:name=".two.AdminActivity" />
         <activity android:name=".Admin" />
-        <activity android:name=".MapsActivity2" />
+        <activity android:name=".one.MapsActivity2" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".one.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".CourierInfoActivity" />
-        <activity android:name=".GuardHouseInfoActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".PostListActivity" />
-        <activity android:name=".CommentActivity" />
-        <activity android:name=".NewsActivity" />
+        <activity android:name=".one.CourierInfoActivity" />
+        <activity android:name=".one.GuardHouseInfoActivity" />
+        <activity android:name=".two.LoginActivity" />
+        <activity android:name=".two.RegisterActivity" />
+        <activity android:name=".two.PostListActivity" />
+        <activity android:name=".two.CommentActivity" />
+        <activity android:name=".three.NewsActivity" />
         <activity
-            android:name=".LocationActivity"
+            android:name=".one.LocationActivity"
             android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".one.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

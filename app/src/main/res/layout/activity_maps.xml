@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/line"
     android:visibility="visible"
-    tools:context=".MainActivity">
+    tools:context=".one.MainActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout"
