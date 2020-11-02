@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ForWS"
+        android:textColorLink="#E6B39DDB"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/community"
+        android:layout_width="126dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="40dp"
+        android:cropToPadding="false"
+        android:onClick="onClick"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maps"
+        app:srcCompat="@drawable/co" />
+
+    <ImageButton
+        android:id="@+id/maps"
+        android:layout_width="106dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:srcCompat="@drawable/map" />
+
+    <ImageButton
+        android:id="@+id/policy"
+        android:layout_width="88dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClick"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/community"
+        app:srcCompat="@drawable/policy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

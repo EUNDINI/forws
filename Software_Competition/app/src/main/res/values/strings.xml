@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Software_Competition</string>
+    <string name="title">여성 안심 앱</string>
+    <string name="locaOne">현재 위치</string>
+    <string name="locaTwo">위치 지정</string>
+    <string name="back">취소</string>
+    <string name="submit">확인</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="one_btn">one</string>
+    <string name="two_btn">two</string>
+    <string name="three_btn">three</string>
+    <string name="four_btn">four</string>
+    <string name="title_activity_maps2">Map</string>
+
+    <string name="placeName">장소 이름</string>
+    <string name="newAddress">도로명주소</string>
+    <string name="oldAddress">지번주소</string>
+    <string name="tel">전화번호</string>
+    <string name="policeOfficeName">관할경찰서명</string>
+    <string name="updateDate">업데이트 날짜</string>
+
+    <string name="courierStartTime">시작 시각</string>
+    <string name="courierEndTime">종료 시각</string>
+    <string name="weekday">평일</string>
+    <string name="saturday">토요일</string>
+    <string name="holiday">공휴일</string>
+    <string name="freeUseTime">무료 이용 시간</string>
+    <string name="lateFee">연체료</string>
+    <string name="lateFeeTime">연체료 부과 단위 시간</string>
+    <string name="instruction">사용 방법</string>
+    <string name="box">칸</string>
+
+    <string name="serviceCenterTel">고객센터 전화번호</string>
+    <string name="managementAgencyTel">관리기관 전화번호</string>
+</resources>

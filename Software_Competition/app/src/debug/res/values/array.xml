@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mapServices">
+        <item>선택</item>
+        <item>CCTV</item>
+        <item>여성안심택배함</item>
+        <item>여성안심지킴이집</item>
+        <item>경찰관서</item>
+    </string-array>
+
+    <string-array name="글작성카테고리">
+        <item>자유</item>
+        <item>정보</item>
+        <item>질문</item>
+    </string-array>
+
+    <string-array name="전체카테고리">
+        <item>전체</item>
+        <item>공지사항</item>
+        <item>자유</item>
+        <item>정보</item>
+        <item>질문</item>
+    </string-array>
+</resources>
