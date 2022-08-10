@@ -1,4 +1,4 @@
-<h1 align="center">여성 안전 안드로이드 어플리케이션 'ForWS(ForWomanSecurity)'</h1>
+<h1 align="center">여성 안전 안드로이드 애플리케이션 'ForWS(ForWomanSecurity)'</h1>
 
 ## 기술 스택
 <p>
